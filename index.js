@@ -1,4 +1,5 @@
 module.exports = function(obj) {
+  if (!obj) obj = this;
     obj.events = {};
 
   	obj.trigger = function(event, id, p) {
@@ -70,4 +71,6 @@ module.exports = function(obj) {
 			}
 		}
     };
+
+    return obj;
 };

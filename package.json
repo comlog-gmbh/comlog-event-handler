@@ -1,6 +1,6 @@
 {
   "name": "comlog-event-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extend object with event handler",
   "main": "index.js",
   "scripts": {
