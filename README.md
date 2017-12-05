@@ -37,6 +37,10 @@ myModule.on('event1', 'testid', function(arg1, arg2, arg3) {
 myModule.one('event2', function(arg1, arg2, arg3) {
     console.info(arg1, arg2, arg3)
 });
+// OR
+myModule.once('event3', function(arg1, arg2, arg3) {
+    console.info(arg1, arg2, arg3)
+});
 
 // unbind event by id
 myModule.off('event1', 'testid', function(arg1, arg2, arg3) {
@@ -47,5 +51,9 @@ myModule.off('event1', 'testid', function(arg1, arg2, arg3) {
 myModule.off('event1', function(arg1, arg2, arg3) {
 	console.info(arg1, arg2, arg3)
 });
+
+myModule.trigger('event1', [arg1, arg2, arg3]);
+// OR
+myModule.emit('event1', [arg1, arg2, arg3]);
 
 ```

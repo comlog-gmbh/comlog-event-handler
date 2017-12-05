@@ -1,15 +1,16 @@
 {
-  "name": "comlog-event-handler",
-  "version": "1.0.1",
-  "description": "Extend object with event handler",
-  "main": "index.js",
-  "scripts": {
-    "test": "node test/test.js"
-  },
-  "keywords": [
-    "event",
-    "handler"
-  ],
-  "author": "COMLOG GmbH",
-  "license": "ISC"
+	"name": "comlog-event-handler",
+	"version": "1.0.2",
+	"description": "Extend object with event handler",
+	"main": "index.js",
+	"scripts": {
+		"test": "node test/test.js"
+	},
+	"keywords": [
+		"event",
+		"handler"
+	],
+	"author": "COMLOG GmbH",
+	"homepage": "http://www.comlog.org",
+	"license": "ISC"
 }
